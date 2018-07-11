@@ -5,5 +5,8 @@ class App < Sinatra::Base
   get '/' do
   erb :index
   end
-  
+
+  post 'puppyform' do
+
+  end
 end
