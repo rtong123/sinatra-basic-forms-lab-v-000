@@ -7,6 +7,6 @@ class App < Sinatra::Base
   end
 
   post 'puppyform' do
-
+    erb :display_puppy
   end
 end
